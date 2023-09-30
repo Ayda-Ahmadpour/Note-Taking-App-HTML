@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayda Ahmadpour - Online Note-Taking Script</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Project Online Note-Taking Script</h1>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Notes</h2>
+            <ul id="notes-list"></ul>
+            <button id="add-note">Add New Note</button>
+        </aside>
+        <main class="note-content">
+            <div id="no-note-selected" class="hidden">
+                <p>Select or create a note</p>
+            </div>
+            <div id="note-editor" class="hidden">
+                <textarea id="note-title" placeholder="Note Title"></textarea>
+                <textarea id="note-body" placeholder="Note Content"></textarea>
+                <button id="save-note">Save My Note</button>
+                <button id="delete-note">Delete My Note</button>
+            </div>
+        </main>
+    </div>
+    <script src="scriptfile.js"></script>
+</body>
+</html>
